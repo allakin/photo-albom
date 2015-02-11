@@ -83,3 +83,28 @@ nav.main {
 
 .icon-wrap {
   margin-top: 80px; }
+  .icon-wrap .md-icon1, .icon-wrap .md-icon2, .icon-wrap .md-icon3 {
+    height: 127px;
+    background-position: top center;
+    background-repeat: no-repeat; }
+  .icon-wrap .md-icon1 {
+    background-image: url(../img/md-icon-1.png); }
+  .icon-wrap .md-icon2 {
+    background-image: url(../img/md-icon-2.png); }
+  .icon-wrap .md-icon3 {
+    background-image: url(../img/md-icon-3.png); }
+  .icon-wrap .md-text {
+    margin-top: 50px; }
+
+a:hover {
+  text-decoration: none; }
+a .more-text {
+  font-size: 24px;
+  color: #00adee;
+  margin-top: 74px; }
+
+.text-paragraf {
+  font-size: 20px;
+  color: #313131;
+  margin-top: 40px;
+  margin-bottom: 54px; }

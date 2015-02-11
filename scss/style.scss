@@ -73,7 +73,7 @@ nav.main{
 
 .h1{
   font-size: 57px;
-  color: #00adee;
+  color: $blue;
   margin-top: 114px;
 }
 
@@ -93,7 +93,7 @@ nav.main{
 .content{
   background: #eee;
   h3{
-    color: #00adee;
+    color: $blue;
     font-size: 57px;
     text-align: center;
     margin-top: 57px;
@@ -110,5 +110,41 @@ nav.main{
 
 .icon-wrap{
   margin-top: 80px;
+  .md-icon1,
+  .md-icon2,
+  .md-icon3{
+    height: 127px;
+    background-position: top center;
+    background-repeat: no-repeat;
+  }
+  .md-icon1{
+    background-image: url(../img/md-icon-1.png);
+  }
+  .md-icon2{
+    background-image: url(../img/md-icon-2.png);
+  }
+  .md-icon3{
+    background-image: url(../img/md-icon-3.png);
+  }
+  .md-text{
+    margin-top: 50px;
+  }
+}
+a{
+  &:hover{
+    text-decoration: none
+  }
+  .more-text{
+    font-size: 24px;
+    color: $blue;
+    margin-top: 74px;
+  }
+}
+
+.text-paragraf{
+  font-size: 20px;
+  color: $gray;
+  margin-top: 40px;
+  margin-bottom: 54px;
 }
 
