@@ -65,3 +65,21 @@ nav.main {
   background-position: top center;
   background-repeat: no-repeat;
   height: 422px; }
+
+.content {
+  background: #eee; }
+  .content h3 {
+    color: #00adee;
+    font-size: 57px;
+    text-align: center;
+    margin-top: 57px;
+    display: block; }
+  .content .text-block {
+    font-size: 36px;
+    color: #47474a;
+    margin-top: 40px;
+    text-align: center;
+    display: block; }
+
+.icon-wrap {
+  margin-top: 80px; }
