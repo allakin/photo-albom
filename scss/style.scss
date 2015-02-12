@@ -90,8 +90,8 @@ nav.main{
   height: 422px;
 }
 
-.content{
-  background: #eee;
+.content-gray,
+.content-white{
   h3{
     color: $blue;
     font-size: 57px;
@@ -112,7 +112,14 @@ nav.main{
   margin-top: 80px;
   .md-icon1,
   .md-icon2,
-  .md-icon3{
+  .md-icon3,
+  .md-icon1-1,
+  .md-icon2-2,
+  .md-icon3-3,
+  .md-icon1-1-1,
+  .md-icon2-2-2,
+  .md-icon3-3-3,
+  {
     height: 127px;
     background-position: top center;
     background-repeat: no-repeat;
@@ -125,6 +132,24 @@ nav.main{
   }
   .md-icon3{
     background-image: url(../img/md-icon-3.png);
+  }
+  .md-icon1-1{
+    background-image: url(../img/md-icon-1-1.jpg);
+  }
+  .md-icon2-2{
+    background-image: url(../img/md-icon-2-2.jpg);
+  }
+  .md-icon3-3{
+    background-image: url(../img/md-icon-3-3.jpg);
+  }
+  .md-icon1-1-1{
+    background-image: url(../img/md-icon-1-1-1.png);
+  }
+  .md-icon2-2-2{
+    background-image: url(../img/md-icon-2-2-2.png);
+  }
+  .md-icon3-3-3{
+    background-image: url(../img/md-icon-3-3-3.png);
   }
   .md-text{
     margin-top: 50px;
@@ -147,4 +172,9 @@ a{
   margin-top: 40px;
   margin-bottom: 54px;
 }
-
+.content-gray{
+  background: #eee;
+}
+.sale-color{
+  color: $blue;
+}
